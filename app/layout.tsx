@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import { Poiret_One, Red_Hat_Text, Roboto } from 'next/font/google';
 import './globals.css';
-import { Sidebar } from '@/components/Sidebar';
+import { Menu } from '@/components/Menu';
+import { Hero } from '@/components/Hero';
+import { Footer } from '@/components/Footer';
 
 const poiretOne = Poiret_One({
   variable: '--font-poiret-one',
@@ -34,9 +36,12 @@ export default function RootLayout({
       <body
         className={`${poiretOne.variable} ${redHatText.variable} ${roboto.variable} relative antialiased`}
       >
-        <Sidebar />
-        <main className="px-5 pt-30 pb-10 lg:ml-50">{children}</main>
-        <div className="h-[1800px]">COKOLWIEK</div>
+        <Menu />
+        <Hero />
+        <main className="bg-light 3xl:max-w-[1400px] 3xl:mx-auto z-10 min-h-[1300px] max-w-[1150px] px-15 pt-15 pb-10 shadow-xl shadow-black/40 lg:ml-50 2xl:mx-auto">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

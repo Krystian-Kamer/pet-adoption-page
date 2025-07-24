@@ -14,7 +14,7 @@ export const Theme = () => {
 
   return (
     <button
-      className="sharpness block w-full cursor-pointer py-2 text-start"
+      className="sharpness hover:bg-semi-dark block w-full cursor-pointer py-2 text-start"
       onClick={toggleTheme}
     >
       <span className="mx-2 inline-block">

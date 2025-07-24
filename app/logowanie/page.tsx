@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function LogInPage() {
-  return <div>Log in</div>;
+  return <Title title="Zaloguj się" />;
 }

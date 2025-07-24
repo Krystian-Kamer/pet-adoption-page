@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function RegisterPage() {
-  return <div>Register</div>;
+  return <Title title="Rejestracja" />;
 }

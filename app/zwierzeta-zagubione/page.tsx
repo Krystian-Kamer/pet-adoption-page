@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function AnimalsLostPage() {
-  return <div>Zwierzęta zagubione</div>;
+  return <Title title="Zagubione zwierzaki" />;
 }

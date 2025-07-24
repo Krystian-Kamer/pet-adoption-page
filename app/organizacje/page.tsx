@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function OrganisationsPage() {
-  return <div>Orgazniacje</div>;
+  return <Title title="Organizacje" />;
 }

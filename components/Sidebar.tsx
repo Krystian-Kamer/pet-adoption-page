@@ -1,31 +1,134 @@
-'use client';
-import { BiMenuAltRight } from 'react-icons/bi';
-import { useState } from 'react';
-import { SidebarContent } from '@/components/SidebarContent';
-import { Logo } from '@/components/Logo';
+import Link from 'next/link';
+import { MdPets } from 'react-icons/md';
+import { FaUser } from 'react-icons/fa';
+import { FaInfoCircle } from 'react-icons/fa';
+import { MdPermContactCalendar } from 'react-icons/md';
+import { FaBuilding } from 'react-icons/fa6';
+import { FaHandHoldingHeart } from 'react-icons/fa';
+import { Theme } from '@/components/Theme';
 
 export const Sidebar = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-
-  const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
-
-  return (
-    <>
-      <div className="fixed w-fit px-4 py-2">
-        <Logo />
-      </div>
-      <button
-        className="fixed right-0 z-100 cursor-pointer lg:hidden"
-        onClick={toggleSidebar}
+  const animalContent = (
+    <div className="mb-4 flex flex-col md:mb-10">
+      <p className="mb-2 uppercase">
+        <span className="mr-2 inline-block">
+          <MdPets />
+        </span>
+        Zwierzaki
+      </p>
+      <Link
+        href="/zwierzeta-do-adopcji"
+        className="sharpness hover:bg-semi-dark py-2 pl-4"
       >
-        <BiMenuAltRight
-          className={`${isSidebarOpen ? 'text-semi-dark' : 'text-semi-dark'} h-16 w-16`}
-        />
-      </button>
-
-      {isSidebarOpen ? <SidebarContent /> : null}
-    </>
+        Adoptuj
+      </Link>
+      <Link
+        href="/zwierzeta-zagubione"
+        className="sharpness hover:bg-semi-dark py-2 pl-4"
+      >
+        Zagubione
+      </Link>
+      <Link
+        href="/zwierzeta-znalezione"
+        className="sharpness hover:bg-semi-dark py-2 pl-4"
+      >
+        Znalezione
+      </Link>
+    </div>
   );
+
+  const userContent = (
+    <div className="mb-4 flex flex-col md:mb-10">
+      <p className="mb-2 uppercase">
+        <span className="mr-2 inline-block">
+          <FaUser />
+        </span>
+        Użytkownik
+      </p>
+      <Link
+        href="/logowanie"
+        className="sharpness hover:bg-semi-dark py-2 pl-4"
+      >
+        Zaloguj
+      </Link>
+      <Link
+        href="/rejestracja"
+        className="sharpness hover:bg-semi-dark py-2 pl-4"
+      >
+        Rejestracja
+      </Link>
+    </div>
+  );
+
+  const infoContent = (
+    <div className="mb-4 flex flex-col md:mb-10">
+      <p className="mb-2 uppercase">
+        <span className="mr-2 inline-block">
+          <FaInfoCircle />
+        </span>
+        Informacje
+      </p>
+      <Link
+        href="/jak-pomoc"
+        className="sharpness hover:bg-semi-dark py-2 pl-4"
+      >
+        Jak pomóc
+      </Link>
+      <Link
+        href="/wolontariat"
+        className="sharpness hover:bg-semi-dark py-2 pl-4"
+      >
+        Wolontariat
+      </Link>
+      <Link
+        href="/o-adopcji"
+        className="sharpness hover:bg-semi-dark py-2 pl-4"
+      >
+        O adopcji
+      </Link>
+      <Link href="/o-mnie" className="sharpness hover:bg-semi-dark py-2 pl-4">
+        O mnie
+      </Link>
+    </div>
+  );
+
+  {
+    return (
+      <aside className="text-light font-secondary bg-dark fixed z-50 flex h-screen w-50 flex-col px-4 py-20 text-sm tracking-wider md:text-base lg:py-40 lg:text-lg">
+        <div className="mt-6 min-h-0 flex-1 overflow-y-auto pr-2">
+          {animalContent}
+          {userContent}
+          {infoContent}
+          <Link
+            href="/kontakt"
+            className="sharpness hover:bg-semi-dark block py-2"
+          >
+            <span className="mx-2 inline-block">
+              <MdPermContactCalendar />
+            </span>
+            Kontakt
+          </Link>
+          <Link
+            href="/organizacje"
+            className="sharpness hover:bg-semi-dark block py-2"
+          >
+            <span className="mx-2 inline-block">
+              <FaBuilding />
+            </span>
+            Organizacje
+          </Link>
+          <Link
+            href="/zbiorki"
+            className="sharpness hover:bg-semi-dark block py-2"
+          >
+            <span className="mx-2 inline-block">
+              <FaHandHoldingHeart />
+            </span>
+            Zbiórki
+          </Link>
+          <Theme />
+        </div>
+      </aside>
+    );
+  }
 };

@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function ContactPage() {
-  return <div>Kontakt</div>;
+  return <Title title="Kontakt" />;
 }

@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function AboutAdoptionPage() {
-  return <div>O adopcji</div>;
+  return <Title title="O adopcji" />;
 }

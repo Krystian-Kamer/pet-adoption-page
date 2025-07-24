@@ -7,28 +7,39 @@
   --theme-font-primary: var(--font-red-hat-text);
   --theme-font-secondary: var(--font-poiret-one);
   --theme-border-radius: 10px;
+  --breakpoint-3xl: 1800px;
+
 }
 
 @theme {
-  --color-light: #FCEFCB;
+  --bg-color: #f6ecec;
+  --color-light: #fff9f3;
   --color-accent: #B2CD9C;
   --color-semi-dark: #a45832;
   --color-dark: #4B352A;
+  --breakpoint-3xl: 1800px;
+
 }
 
 [data-theme="business"] {
+  --bg-color: #f3f3f3;
   --color-light: #efefe8;
-  --color-accent: #e8e5a7;
+  --color-accent: #B2CD9C;
   --color-semi-dark: #807f7f;
   --color-dark: #383737;
   --theme-font-primary: var(--font-roboto);
-  --theme-font-secondary: var(--font-roboto);
+  --theme-font-secondary: var(--font-red-hat-text);
   --theme-border-radius: 0px;
 }
 
 body {
-  background: var(--color-light);
+  background-color: var(--bg-color);
   font-family: var(--theme-font-primary);
+  width: 100%;
+  background-image: url('/icons-grid.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .font-primary {
@@ -40,12 +51,10 @@ body {
 }
 
 .sharpness {
-  background-color: var(--color-dark);
+  border-radius: var(--theme-border-radius);
   transition: all 0.1s ease-in-out;
 }
 
 .sharpness:hover {
-  background-color: var(--color-semi-dark);
   border-radius: var(--theme-border-radius);
-  font-weight: bold;
 }

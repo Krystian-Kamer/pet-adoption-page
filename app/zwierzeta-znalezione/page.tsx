@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function AnimalsFoundPage() {
-  return <div>Zwierzęta znalezione</div>;
+  return <Title title="Znalezione zwierzaki" />;
 }

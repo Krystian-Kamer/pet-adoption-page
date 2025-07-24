@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function AboutMePage() {
-  return <div>O mnie</div>;
+  return <Title title="O mnie" />;
 }

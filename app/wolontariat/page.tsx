@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function VolunteeringPage() {
-  return <div>Wolontariat</div>;
+  return <Title title="Wolontariat" />;
 }

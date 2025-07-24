@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function FundraisersPage() {
-  return <div>Zbiórki</div>;
+  return <Title title="Zbiórki" />;
 }

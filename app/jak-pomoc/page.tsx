@@ -1,3 +1,5 @@
+import { Title } from '@/ui/Title';
+
 export default function HowToHelpPage() {
-  return <div>Jak pomóc</div>;
+  return <Title title="Jak pomóc" />;
 }
