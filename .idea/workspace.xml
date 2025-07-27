@@ -5,51 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9b4b9b-6286-43ce-867c-cbd88b17bafb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/animals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ShortAdoptionForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useScreenWidth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons-grid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/cat-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/cat-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/cat-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/cat-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/cat-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/dog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/dog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/dog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/animals/dog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bg-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bg-medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bg-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons-grid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/AnimalCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/Subtitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/Text.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/Title.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/zwierzeta-do-adopcji/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/zwierzeta-zagubione/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/zwierzeta-znalezione/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cities.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AnimalFilterForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AnimalGrid.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/animals.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/jak-pomoc/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/jak-pomoc/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/kontakt/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/kontakt/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/logowanie/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/logowanie/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/o-adopcji/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/o-adopcji/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/o-mnie/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/o-mnie/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/organizacje/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/organizacje/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/rejestracja/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/rejestracja/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wolontariat/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/wolontariat/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/zbiorki/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zbiorki/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/zwierzeta-do-adopcji/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-do-adopcji/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/zwierzeta-zagubione/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-zagubione/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/zwierzeta-znalezione/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-znalezione/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SidebarContent.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Theme.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/AnimalCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/AnimalCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +64,7 @@
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/texen/OneDrive/Dokumenty/Projekty/adoptuj_zwierzaka/ui&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/texen/OneDrive/Dokumenty/Projekty/adoptuj_zwierzaka/app/zwierzeta-znalezione&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,6 +78,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\zwierzeta-znalezione" />
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\zwierzeta-zagubione" />
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\zwierzeta-do-adopcji" />
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\[id]" />
       <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -158,12 +137,29 @@
       <workItem from="1753204988930" duration="1089000" />
       <workItem from="1753206112270" duration="3515000" />
       <workItem from="1753211008863" duration="2243000" />
-      <workItem from="1753377015076" duration="6477000" />
+      <workItem from="1753377015076" duration="7090000" />
+      <workItem from="1753466388292" duration="2586000" />
+      <workItem from="1753474198544" duration="1266000" />
+      <workItem from="1753516917664" duration="4244000" />
+      <workItem from="1753522137641" duration="1410000" />
+      <workItem from="1753622690730" duration="2795000" />
+      <workItem from="1753641867953" duration="3299000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

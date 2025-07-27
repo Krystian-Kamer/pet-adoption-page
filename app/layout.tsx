@@ -38,7 +38,7 @@ export default function RootLayout({
       >
         <Menu />
         <Hero />
-        <main className="bg-light 3xl:max-w-[1400px] 3xl:mx-auto z-10 min-h-[1300px] max-w-[1150px] px-15 pt-15 pb-10 shadow-xl shadow-black/40 lg:ml-50 2xl:mx-auto">
+        <main className="bg-light 3xl:max-w-[1400px] 3xl:mx-auto z-10 min-h-[1300px] max-w-[1150px] px-5 pt-15 pb-10 shadow-xl shadow-black/40 md:px-15 lg:ml-50 2xl:mx-auto">
           {children}
         </main>
         <Footer />

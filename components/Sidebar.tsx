@@ -8,6 +8,8 @@ import { FaHandHoldingHeart } from 'react-icons/fa';
 import { Theme } from '@/components/Theme';
 
 export const Sidebar = () => {
+  const isLoggedIn = true;
+
   const animalContent = (
     <div className="mb-4 flex flex-col md:mb-10">
       <p className="mb-2 uppercase">
@@ -45,18 +47,59 @@ export const Sidebar = () => {
         </span>
         Użytkownik
       </p>
-      <Link
-        href="/logowanie"
-        className="sharpness hover:bg-semi-dark py-2 pl-4"
-      >
-        Zaloguj
-      </Link>
-      <Link
-        href="/rejestracja"
-        className="sharpness hover:bg-semi-dark py-2 pl-4"
-      >
-        Rejestracja
-      </Link>
+
+      {isLoggedIn ? (
+        <>
+          <Link
+            className="sharpness hover:bg-semi-dark py-2 pl-4"
+            href="/zwierzeta-do-adopcji"
+          >
+            Dodaj zwierzę
+          </Link>
+          <Link
+            className="sharpness hover:bg-semi-dark py-2 pl-4"
+            href="/zwierzeta-do-adopcji"
+          >
+            Zarządzaj zwierzętami
+          </Link>
+          <Link
+            className="sharpness hover:bg-semi-dark py-2 pl-4"
+            href="/zwierzeta-do-adopcji"
+          >
+            Personel
+          </Link>
+          <Link
+            className="sharpness hover:bg-semi-dark py-2 pl-4"
+            href="/zwierzeta-do-adopcji"
+          >
+            Wiadomości
+          </Link>
+          <Link
+            className="sharpness hover:bg-semi-dark py-2 pl-4"
+            href="/zwierzeta-do-adopcji"
+          >
+            Ustawienia
+          </Link>
+          <button className="sharpness hover:bg-semi-dark inline-block py-2 pl-4 text-start">
+            Wyloguj
+          </button>
+        </>
+      ) : (
+        <>
+          <Link
+            href="/logowanie"
+            className="sharpness hover:bg-semi-dark py-2 pl-4"
+          >
+            Zaloguj
+          </Link>
+          <Link
+            href="/rejestracja"
+            className="sharpness hover:bg-semi-dark py-2 pl-4"
+          >
+            Rejestracja
+          </Link>
+        </>
+      )}
     </div>
   );
 
@@ -94,7 +137,7 @@ export const Sidebar = () => {
 
   {
     return (
-      <aside className="text-light font-secondary bg-dark fixed z-50 flex h-screen w-50 flex-col px-4 py-20 text-sm tracking-wider md:text-base lg:py-40 lg:text-lg">
+      <aside className="text-light font-secondary bg-dark fixed z-50 flex h-screen w-50 flex-col px-4 py-20 text-sm tracking-wider md:text-base lg:pt-40 lg:text-lg">
         <div className="mt-6 min-h-0 flex-1 overflow-y-auto pr-2">
           {animalContent}
           {userContent}

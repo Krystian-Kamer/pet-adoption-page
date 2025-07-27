@@ -1,4 +1,4 @@
-type Animal = {
+export type Animal = {
   id: number;
   name: string;
   species: 'dog' | 'cat';
@@ -9,12 +9,15 @@ type Animal = {
   organization: string;
   phoneNumber: string;
   description: string;
+  city?: string;
+  status?: 'adoption' | 'lost' | 'found';
+  dateOfAdmission?: string;
 };
 
 export const animals: Animal[] = [
   {
     id: 1,
-    name: 'Dog-1',
+    name: 'Hauczek',
     species: 'dog',
     imageUrl: '/animals/dog-1.jpg',
     gender: 'male',
@@ -26,7 +29,7 @@ export const animals: Animal[] = [
   },
   {
     id: 2,
-    name: 'Cat-2',
+    name: 'Miauczek',
     species: 'cat',
     imageUrl: '/animals/cat-1.jpg',
     gender: 'female',
@@ -38,7 +41,7 @@ export const animals: Animal[] = [
   },
   {
     id: 3,
-    name: 'Dog-2',
+    name: 'Boguś',
     species: 'dog',
     imageUrl: '/animals/dog-2.jpg',
     gender: 'female',

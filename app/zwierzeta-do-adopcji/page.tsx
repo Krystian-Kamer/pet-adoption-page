@@ -1,21 +1,16 @@
 import { Title } from '@/ui/Title';
-import { AnimalCard } from '@/ui/AnimalCard';
 import { animals } from '@/animals';
+import AnimalFilterForm from '@/components/AnimalFilterForm';
+import { AnimalGrid } from '@/components/AnimalGrid';
 
-export default function AnimalsForAdoptionPage() {
+export default async function AnimalsForAdoptionPage() {
+  const animalsList = animals;
+
   return (
     <div>
       <Title title="Zwierzaki do adopcji" />
-      <div className="bg-semi-dark h-50 w-full"></div>
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-5">
-        {animals.map((animal) => (
-          <AnimalCard
-            key={animal.id}
-            image={animal.imageUrl}
-            name={animal.name}
-          />
-        ))}
-      </div>
+      <AnimalFilterForm />
+      <AnimalGrid animals={animalsList} basePath="zwierzeta-do-adopcji" />
     </div>
   );
 }
