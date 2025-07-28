@@ -10,7 +10,7 @@ type ContactFormData = {
   message: string;
 };
 
-export default function ContactPage() {
+export const AnimalContactForm = () => {
   const {
     register,
     handleSubmit,
@@ -108,4 +108,4 @@ export default function ContactPage() {
       </form>
     </div>
   );
-}
+};

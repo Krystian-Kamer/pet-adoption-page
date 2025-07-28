@@ -5,26 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9b4b9b-6286-43ce-867c-cbd88b17bafb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/zwierzeta-do-adopcji/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/zwierzeta-zagubione/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/zwierzeta-znalezione/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AnimalFilterForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AnimalGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dodaj-zbiorke/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dodaj-zwierze/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/personel/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ustawienia/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wiadomosci/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/zarzadzaj-zwierzetami/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/zarzadzaj-zwierzetami/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AnimalContactForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AnimalInfo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/animals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jak-pomoc/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/jak-pomoc/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/kontakt/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/kontakt/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/o-adopcji/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/o-adopcji/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wolontariat/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/wolontariat/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/zwierzeta-do-adopcji/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-do-adopcji/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/zwierzeta-zagubione/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-zagubione/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/zwierzeta-znalezione/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-znalezione/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/zwierzeta-do-adopcji/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-do-adopcji/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/zwierzeta-zagubione/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-zagubione/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/zwierzeta-znalezione/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/zwierzeta-znalezione/[id]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/AnimalCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/AnimalCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,35 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/texen/OneDrive/Dokumenty/Projekty/adoptuj_zwierzaka/app/zwierzeta-znalezione&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\texen\\OneDrive\\Dokumenty\\Projekty\\adoptuj_zwierzaka\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\texen\\OneDrive\\Dokumenty\\Projekty\\adoptuj_zwierzaka\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/texen/OneDrive/Dokumenty/Projekty/adoptuj_zwierzaka/app/dodaj-zbiorke",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\texen\\OneDrive\\Dokumenty\\Projekty\\adoptuj_zwierzaka\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "ts.external.directory.path": "C:\\Users\\texen\\OneDrive\\Dokumenty\\Projekty\\adoptuj_zwierzaka\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\zwierzeta-znalezione" />
-      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\zwierzeta-zagubione" />
-      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\zwierzeta-do-adopcji" />
-      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\[id]" />
-      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\ui" />
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\dodaj-zbiorke" />
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\zarzadzaj-zwierzetami" />
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\ustawienia" />
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\wiadomosci" />
+      <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\app\personel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\texen\OneDrive\Dokumenty\Projekty\adoptuj_zwierzaka\public\animals" />
@@ -143,7 +139,8 @@
       <workItem from="1753516917664" duration="4244000" />
       <workItem from="1753522137641" duration="1410000" />
       <workItem from="1753622690730" duration="2795000" />
-      <workItem from="1753641867953" duration="3299000" />
+      <workItem from="1753641867953" duration="3418000" />
+      <workItem from="1753722474270" duration="6409000" />
     </task>
     <servers />
   </component>

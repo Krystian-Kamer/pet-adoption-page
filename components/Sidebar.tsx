@@ -52,31 +52,37 @@ export const Sidebar = () => {
         <>
           <Link
             className="sharpness hover:bg-semi-dark py-2 pl-4"
-            href="/zwierzeta-do-adopcji"
+            href="/dodaj-zwierze"
           >
             Dodaj zwierzę
           </Link>
           <Link
             className="sharpness hover:bg-semi-dark py-2 pl-4"
-            href="/zwierzeta-do-adopcji"
+            href="/dodaj-zbiorke"
+          >
+            Dodaj zbiórkę
+          </Link>
+          <Link
+            className="sharpness hover:bg-semi-dark py-2 pl-4"
+            href="/zarzadzaj-zwierzetami"
           >
             Zarządzaj zwierzętami
           </Link>
           <Link
             className="sharpness hover:bg-semi-dark py-2 pl-4"
-            href="/zwierzeta-do-adopcji"
+            href="/personel"
           >
             Personel
           </Link>
           <Link
             className="sharpness hover:bg-semi-dark py-2 pl-4"
-            href="/zwierzeta-do-adopcji"
+            href="/wiadomosci"
           >
             Wiadomości
           </Link>
           <Link
             className="sharpness hover:bg-semi-dark py-2 pl-4"
-            href="/zwierzeta-do-adopcji"
+            href="/ustawienia"
           >
             Ustawienia
           </Link>

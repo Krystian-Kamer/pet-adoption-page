@@ -1,6 +1,7 @@
 import { animals } from '@/animals';
 import { Title } from '@/ui/Title';
 import { Subtitle } from '@/ui/Subtitle';
+import ManageAnimalsPage from '@/app/zarzadzaj-zwierzetami/page';
 import { AnimalInfo } from '@/components/AnimalInfo';
 
 interface AnimalPageProps {
@@ -9,7 +10,7 @@ interface AnimalPageProps {
   };
 }
 
-export default function AnimalLostPage({ params }: AnimalPageProps) {
+export default function ManageAnimalPage({ params }: AnimalPageProps) {
   const animal = animals.find((a) => a.id === Number(params.id));
 
   if (!animal) {
