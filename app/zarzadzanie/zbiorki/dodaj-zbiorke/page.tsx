@@ -3,7 +3,6 @@
 import { useForm } from 'react-hook-form';
 import { Title } from '@/ui/Title';
 import { useState } from 'react';
-import FundraisersPage from '@/app/zbiorki/page';
 
 type ImageFile = {
   file: File;
@@ -11,7 +10,7 @@ type ImageFile = {
   id: string;
 };
 
-export default function AddFundraiserPage() {
+export default function AddFundraisersPage() {
   const {
     register,
     handleSubmit,
@@ -89,7 +88,7 @@ export default function AddFundraiserPage() {
 
   return (
     <div className="mx-auto max-w-3xl py-10">
-      <Title title="Dodaj zwierzę" />
+      <Title title="Dodaj zbiórkę" />
       <hr className="mb-5" />
       <form
         onSubmit={handleSubmit(onSubmit)}

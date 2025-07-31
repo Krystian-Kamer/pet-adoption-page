@@ -1,4 +1,4 @@
-import { AnimalCard } from '@/ui/AnimalCard';
+import { AnimalCard } from '@/components/AnimalCard';
 import { Animal } from '@/animals';
 
 type AnimalGridProps = {
@@ -8,7 +8,7 @@ type AnimalGridProps = {
 
 export const AnimalGrid = ({ animals, basePath }: AnimalGridProps) => {
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] place-items-center gap-5">
+    <div className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] place-items-center gap-4">
       {animals.map((animal) => (
         <AnimalCard
           key={animal.id}

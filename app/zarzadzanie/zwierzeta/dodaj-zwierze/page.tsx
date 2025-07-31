@@ -10,7 +10,7 @@ type ImageFile = {
   id: string;
 };
 
-export default function AddAnimalPage() {
+export default function AddFundraiserPage() {
   const {
     register,
     handleSubmit,
@@ -88,7 +88,7 @@ export default function AddAnimalPage() {
 
   return (
     <div className="mx-auto max-w-3xl py-10">
-      <Title title="Dodaj zbiórkę" />
+      <Title title="Dodaj zwierzę" />
       <hr className="mb-5" />
       <form
         onSubmit={handleSubmit(onSubmit)}

@@ -1,5 +1,6 @@
-import { FaPaintRoller } from 'react-icons/fa';
+'use client';
 import { useEffect, useState } from 'react';
+import { WiMoonAltFirstQuarter } from 'react-icons/wi';
 
 export const Theme = () => {
   const [theme, setTheme] = useState<'casual' | 'business'>('casual');
@@ -14,13 +15,10 @@ export const Theme = () => {
 
   return (
     <button
-      className="sharpness hover:bg-semi-dark block w-full cursor-pointer py-2 text-start"
+      className="bg-light text-dark absolute top-0 right-0 m-4 cursor-pointer rounded-full duration-500 hover:rotate-180"
       onClick={toggleTheme}
     >
-      <span className="mx-2 inline-block">
-        <FaPaintRoller />
-      </span>
-      Zmień motyw
+      <WiMoonAltFirstQuarter className="h-6 w-6" />
     </button>
   );
 };

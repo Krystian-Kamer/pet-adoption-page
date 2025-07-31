@@ -29,7 +29,7 @@ export const AnimalInfo = ({
       <img
         src={imageUrl}
         alt={name}
-        className="sharpness border-dark/20 mb-4 h-full max-h-[600px] w-fit self-center border-1 bg-white p-2"
+        className="sharpness border-dark/20 mb-4 max-h-[500px] w-fit self-center border-1 bg-white p-2"
       />
       <div className="text-center">
         <Title title={name} />
@@ -49,6 +49,9 @@ export const AnimalInfo = ({
         </li>
         <li>
           <strong>Organizacja:</strong> {organization}
+        </li>
+        <li>
+          <strong>Miasto:</strong> Toruń
         </li>
         <li>
           <strong>Telefon:</strong> {phoneNumber}

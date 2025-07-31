@@ -1,5 +1,5 @@
 import { Title } from '@/ui/Title';
 
-export default function StaffPage() {
+export default function ManageStaffPage() {
   return <Title title="Personel" />;
 }
