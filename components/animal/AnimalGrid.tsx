@@ -1,4 +1,4 @@
-import { AnimalCard } from '@/components/AnimalCard';
+import { AnimalCard } from '@/components/animal/AnimalCard';
 import { Animal } from '@/animals';
 
 type AnimalGridProps = {

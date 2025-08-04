@@ -10,7 +10,7 @@ export const Sidebar = () => {
   const userName = 'Jan Kowalski';
 
   const userHeader = isLoggedIn ? (
-    <div className="border-semi-dark mb-6 border-b pb-2">
+    <div className="border-semi-dark mb-6 border-b pb-4">
       <div className="flex items-start">
         <div className="bg-semi-dark mr-3 flex h-10 w-10 items-center justify-center rounded-full">
           <FaUser className="text-light" />
@@ -206,7 +206,7 @@ export const Sidebar = () => {
   );
 
   return (
-    <aside className="text-light font-secondary bg-dark fixed z-50 flex h-screen w-50 px-4 pt-20 pb-10 text-sm tracking-wider md:text-base lg:pt-40 lg:text-base">
+    <aside className="text-light font-secondary bg-dark fixed z-50 flex h-screen w-50 px-4 pt-14 pb-10 text-sm tracking-wider md:text-base lg:text-base">
       <Theme />
       <div className="relative flex flex-col pr-2">
         {userHeader}

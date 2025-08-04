@@ -1,6 +1,6 @@
 import { Title } from '@/ui/Title';
-import AnimalFilterForm from '@/components/AnimalFilterForm';
-import { AnimalGrid } from '@/components/AnimalGrid';
+import AnimalFilterForm from '@/components/animal/AnimalFilterForm';
+import { AnimalGrid } from '@/components/animal/AnimalGrid';
 import { animals } from '@/animals';
 
 export default function AnimalsLostPage() {

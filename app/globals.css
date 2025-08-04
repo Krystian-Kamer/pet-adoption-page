@@ -58,3 +58,10 @@ body {
 .sharpness:hover {
   border-radius: var(--theme-border-radius);
 }
+
+
+.slider-container .slick-prev:before,
+.slider-container .slick-next:before {
+  color:var(--color-dark);
+  opacity: 1;
+}

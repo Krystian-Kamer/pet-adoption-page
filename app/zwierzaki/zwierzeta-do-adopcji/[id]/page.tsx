@@ -1,8 +1,8 @@
 import { animals } from '@/animals';
 import { Title } from '@/ui/Title';
 import { Subtitle } from '@/ui/Subtitle';
-import { AnimalInfo } from '@/components/AnimalInfo';
-import { AnimalContactForm } from '@/components/AnimalContactForm';
+import { AnimalInfo } from '@/components/animal/AnimalInfo';
+import { AnimalContactForm } from '@/components/animal/AnimalContactForm';
 
 interface AnimalPageProps {
   params: {

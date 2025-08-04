@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Card } from '@/ui/Card';
 
 type AnimalCardProps = {
   image: string;
@@ -10,14 +9,17 @@ type AnimalCardProps = {
 
 export const AnimalCard = ({ image, name, id, basePath }: AnimalCardProps) => {
   return (
-    <Card>
+    <div className="text-dark sharpness m-1 flex h-80 w-60 flex-col items-center overflow-hidden bg-white shadow">
       <Link href={`/zwierzaki/${basePath}/${id}`}>
         <img src={image} alt={name} className="mb-2 h-60 w-full object-cover" />
         <p className="text-center text-xl font-semibold tracking-wide">
           {name}
         </p>
-        <p className="text-start">Toruń</p>
+        <div className="flex justify-between px-2">
+          <p className="text-start">Toruń</p>
+          <p className="text-start">Wiek</p>
+        </div>
       </Link>
-    </Card>
+    </div>
   );
 };
